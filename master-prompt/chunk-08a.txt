@@ -1,0 +1,159 @@
+Both characters are now genuinely laughing.
+
+Use open but anatomically natural mouth shapes, irregular breathing, subtle head movement and short non-looping shoulder motion.
+
+One character may briefly look down, turn slightly away or lose eye contact.
+
+The other may release a short breathless laugh or snort.
+
+Cut abruptly at the strongest natural peak of the laughter.
+
+DIALOGUE INTEGRITY
+
+Use every Russian line exactly word for word.
+
+Preserve the original order and original speaker assignments.
+
+Do not translate.
+
+Do not paraphrase.
+
+Do not shorten.
+
+Do not add words.
+
+Do not remove words.
+
+Do not add a narrator.
+
+Do not add background dialogue.
+
+Only the assigned speaker moves their lips during each line.
+
+Every listening character keeps their mouth naturally still.
+
+Do not overlap lines unless overlapping speech exists in the original text.
+
+All spoken dialogue must be fully completed before 9.0 seconds.
+
+No new spoken words during the final laughter.
+
+ACTING
+
+Use understated natural everyday acting before the final second.
+
+The characters behave like real people having an ordinary conversation.
+
+They do not perform for the camera.
+
+Use small delayed reactions.
+
+Use natural breathing.
+
+Use different blinking rhythms.
+
+Use brief changes of gaze.
+
+Use restrained facial movement.
+
+No constant smiling.
+
+No theatrical eyebrow movements.
+
+No exaggerated comedy faces.
+
+No repeated looping gestures.
+
+No random movements unrelated to the scene.
+
+The contrast between restrained acting during the dialogue and explosive laughter during the final second must create the emotional payoff.
+
+MOVEMENT BUDGET
+
+Across the entire video use only:
+
+one continuation of the Frame 0 action
+
+one simple setup gesture
+
+one small listening reaction
+
+one simple movement during the punchline
+
+one short post-punchline delay
+
+one explosive laughter event during the final second
+
+Do not combine long dialogue with complicated physical activity.
+
+Keep every action easy for real people to perform in one take.
+
+CAMERA
+
+Real smartphone camera casually placed on a stable surface.
+
+Natural eye-level perspective.
+
+Static framing.
+
+Stable focus.
+
+Stable exposure.
+
+Stable white balance.
+
+No pan.
+
+No tilt.
+
+No zoom.
+
+No cinematic push-in.
+
+No artificial handheld shake.
+
+No focus pulsing.
+
+No automatic reframing.
+
+The camera remains static during the final laughter.
+
+Only the characters move.
+
+IDENTITY AND ANATOMY
+
+Preserve the exact character identities established in Frame 0.
+
+Keep faces stable throughout the laughter.
+
+Keep hairstyles, body proportions, clothing and accessories unchanged.
+
+Keep hands anatomically correct.
+
+Maintain physically coherent contact with props.
+
+No face blending.
+
+No identity swapping.
+
+No age changes.
+
+No clothing pattern changes.
+
+No facial deformation during laughter.
+
+PROP CONTINUITY
+
+Main prop:
+[State its initial position, allowed movement and final position.]
+
+During the final laughter, the prop remains physically coherent.
+
+Do not duplicate, replace, deform or teleport the prop.
+
+If a character is holding the prop, maintain believable grip and contact while laughing.
+
+BACKGROUND AND LIGHTING
+
+Preserve the same room geometry, furniture, doors, windows, background objects, light direction and shadow logic shown in Frame 0.
+
