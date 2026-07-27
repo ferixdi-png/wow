@@ -1,0 +1,109 @@
+Task: image generation or image edit with character references
+Size: 1152x2048
+Aspect ratio: exact 9:16
+Quality: high
+Final images: 1
+```
+
+## Финальный промпт
+
+Создай полностью заполненный промпт на английском языке.
+
+```text
+Create one photorealistic vertical 9:16 candid smartphone image at 1152x2048.
+
+PURPOSE
+
+This image is Frame 0 for a single continuous 10-second image-to-video comedy scene.
+
+It must look like a genuine frame from an ordinary smartphone recording, not a cinematic still, advertisement, fashion photograph or staged comedy sketch.
+
+REFERENCE IMAGE ROLES
+
+Image 1:
+[State which character comes from this image and which identity traits must be preserved.]
+
+Image 2:
+[State which character comes from this image and which identity traits must be preserved.]
+
+Add additional image roles only when additional reference images actually exist.
+
+Use the references to preserve facial identity, apparent age, hairstyle, hair color, body type, clothing, accessories and distinguishing traits.
+
+Do not copy the original pose, expression, background, lighting or composition from the reference photographs.
+
+REAL-LIFE SITUATION
+
+[Describe the most believable everyday situation in which this exact joke could naturally happen.]
+
+The location and activity must immediately make sense for the dialogue.
+
+CHARACTERS
+
+Character 1:
+[Short precise identity and clothing description.]
+
+Character 2:
+[Short precise identity and clothing description.]
+
+Add further characters only if required by the original dialogue.
+
+Do not beautify, redesign, age, merge or stylize the characters.
+
+FRAME 0 MOMENT
+
+[Describe one simple action already happening approximately 0.2 to 0.4 seconds before the first spoken word.]
+
+The action has already begun but has not yet finished.
+
+The first speaker is preparing to speak but has not started the dialogue.
+
+Their mouth is naturally closed or taking a small pre-speech breath.
+
+Every listening character keeps their mouth naturally still.
+
+The video must be able to continue this exact movement immediately without resetting the pose.
+
+The characters are still serious or emotionally neutral enough for the later laughter to feel like a genuine break in composure.
+
+CHARACTER BLOCKING
+
+Character 1:
+[Position in frame, posture, head direction, eye direction, hand position, prop contact and current movement.]
+
+Character 2:
+[Position in frame, posture, head direction, eye direction, hand position, prop contact and listening state.]
+
+PROP LEDGER
+
+Main prop:
+[Describe the object, its position, orientation, who touches it and whether it is currently moving.]
+
+Additional prop:
+[Include only when genuinely necessary.]
+
+Keep all physical interactions simple and believable.
+
+COMPOSITION
+
+Natural eye-level smartphone perspective.
+
+Use a medium two-shot or medium-wide two-shot.
+
+Keep every speaking face clearly visible and large enough to read on a phone screen.
+
+Keep the main characters at a similar practical focus distance.
+
+Use moderate natural depth of field so all important faces remain readable.
+
+Use an ordinary asymmetrical composition.
+
+The camera feels casually placed on a stable household surface.
+
+The characters are not posing and are not performing for the camera.
+
+They primarily look at each other or at the relevant object.
+
+The punchline is not visually revealed.
+
+LIGHTING
