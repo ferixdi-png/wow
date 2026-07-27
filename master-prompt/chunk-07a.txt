@@ -1,0 +1,158 @@
+[Describe one simple believable practical lighting setup already present in the location.]
+
+Use ordinary environmental light.
+
+Keep the direction of light physically coherent.
+
+Use realistic smartphone exposure and natural color balance.
+
+No dramatic rim light.
+
+No studio setup.
+
+No cinematic contrast.
+
+AUTHENTICITY ANCHORS
+
+Environmental anchor:
+[One meaningful visual object.]
+
+Human anchor:
+[One small natural human imperfection.]
+
+Do not add additional defects unless required by the scene.
+
+REAL HUMAN DETAIL
+
+Natural skin texture with restrained pores and tone variation.
+
+Realistic eyes, teeth, hair, hands and fingers.
+
+Natural fabric texture and clothing folds.
+
+Subtle facial asymmetry.
+
+Restrained expressions.
+
+Physically believable contact between hands and objects.
+
+No exaggerated comedy face.
+
+BACKGROUND
+
+Create a coherent lived-in environment.
+
+Use only a small number of readable background objects.
+
+The background supports the situation without competing with the characters.
+
+Avoid mirrors facing the camera.
+
+Avoid screens displaying visible content.
+
+Avoid readable packaging and accidental text.
+
+Avoid random background people.
+
+Avoid excessive clutter.
+
+PRESERVE
+
+Preserve the facial identity, apparent age, hairstyle, body type, clothing and distinguishing traits of every referenced character.
+
+Keep the anatomy realistic.
+
+Keep every hand-to-object interaction physically coherent.
+
+AVOID
+
+No phone interface.
+No phone frame.
+No recording icon.
+No subtitles.
+No text overlay.
+No watermark.
+No random text.
+No extra characters.
+No duplicated objects.
+No fused hands.
+No extra fingers.
+No identity blending.
+No plastic skin.
+No beauty filter.
+No fashion posing.
+No cinematic grading.
+No heavy film grain.
+No artificial lens dirt.
+No exaggerated facial expressions.
+No excessive clutter.
+No premature laughter.
+
+FINAL RESULT
+
+A visually clear, honest and naturally imperfect smartphone moment from real everyday life.
+
+The scene must feel socially recognizable, physically possible and ready to continue immediately as one uninterrupted video shot.
+```
+
+Обязательно замени все шаблонные поля.
+
+Не оставляй квадратные скобки.
+
+---
+
+# БЛОК 2. GEMINI OMNI FLASH — VIDEO PROMPT
+
+## Настройки
+
+```text
+Model: gemini-omni-flash-preview
+Task: image_to_video
+Duration: 10 seconds
+Aspect ratio: 9:16
+Expected output: 720p at 24 FPS
+Audio: native generated scene audio
+Shot structure: one continuous shot
+Mandatory ending: explosive realistic contagious laughter from 9.0 to 10.0 seconds
+```
+
+## Режим изображений
+
+### Основной режим
+
+```text
+Image 1 — готовый Frame 0
+Role — <FIRST_FRAME>
+```
+
+### Усиленный Identity Mode
+
+Используй только при необходимости дополнительной фиксации лиц:
+
+```text
+Image 1 — готовый Frame 0
+Role — <FIRST_FRAME>
+
+Image 2 — референс персонажа 1
+Role — <IMAGE_REF_0>
+
+Image 3 — референс персонажа 2
+Role — <IMAGE_REF_1>
+```
+
+## Финальный промпт
+
+Создай полностью заполненный промпт на английском языке.
+
+```text
+[# Sources <FIRST_FRAME>@Image1]
+
+[When Identity Mode is required:
+# References <IMAGE_REF_0>@Image2 <IMAGE_REF_1>@Image3]
+
+Create a 10-second vertical 9:16 photorealistic smartphone video with natural synchronized Russian dialogue.
+
+IMAGE ROLES
+
+Use Image1 as the exact starting frame of the video.
+
