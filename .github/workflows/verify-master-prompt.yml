@@ -1,0 +1,55 @@
+name: Verify master prompt page
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Wait for GitHub Pages and verify
+        run: |
+          set +e
+          BASE="https://${{ github.repository_owner }}.github.io/wow/master-prompt"
+          OK=0
+          for i in $(seq 1 30); do
+            PAGE=$(curl -LfsS "$BASE/" 2>/dev/null)
+            FIRST=$(curl -LfsS "$BASE/chunk-01.txt" 2>/dev/null)
+            LAST=$(curl -LfsS "$BASE/chunk-12b.txt" 2>/dev/null)
+            APP=$(curl -LfsS "$BASE/app.js" 2>/dev/null)
+            if printf '%s' "$PAGE" | grep -q 'FERIXDI VIDEO FACTORY' \
+              && printf '%s' "$FIRST" | grep -q '# FERIXDI VIDEO FACTORY v40.0' \
+              && printf '%s' "$LAST" | grep -q '# ЕДИНАЯ ФИНАЛЬНАЯ ДИРЕКТИВА v40.0' \
+              && printf '%s' "$LAST" | grep -q 'Полностью подлинное, спонтанное видео' \
+              && printf '%s' "$APP" | grep -q "chunk-12b.txt"; then
+              OK=1
+              break
+            fi
+            sleep 10
+          done
+          {
+            echo "HTTP_STATUS:$(curl -Lso /dev/null -w '%{http_code}' "$BASE/")"
+            echo "FINAL_URL:$BASE/"
+            echo "PAGE_VERIFIED:$OK"
+            echo "MASTER_PROMPT_START_VERIFIED:$(curl -LfsS "$BASE/chunk-01.txt" 2>/dev/null | grep -q '# FERIXDI VIDEO FACTORY v40.0' && echo 1 || echo 0)"
+            echo "REALISM_BLOCK_VERIFIED:$(curl -LfsS "$BASE/chunk-12b.txt" 2>/dev/null | grep -q 'Полностью подлинное, спонтанное видео' && echo 1 || echo 0)"
+            echo "FINAL_DIRECTIVE_VERIFIED:$(curl -LfsS "$BASE/chunk-12b.txt" 2>/dev/null | grep -q '# ЕДИНАЯ ФИНАЛЬНАЯ ДИРЕКТИВА v40.0' && echo 1 || echo 0)"
+          } > master-prompt/deploy-status.txt
+          cat master-prompt/deploy-status.txt
+
+      - name: Save verification result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add master-prompt/deploy-status.txt
+          git commit -m "Verify master prompt page" || true
+          git push || true
