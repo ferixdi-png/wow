@@ -1,0 +1,144 @@
+When reference images are provided, use them only to preserve character identity.
+
+Do not use identity reference images as literal starting frames.
+
+Do not copy their original pose, background, lighting or composition.
+
+SCENE
+
+[One clear sentence describing the believable everyday situation.]
+
+COMEDY LOGIC
+
+[One concise sentence describing the setup, expectation, comic turn and the exact reason the characters finally lose composure.]
+
+SINGLE CONTINUOUS SHOT
+
+The entire video is one uninterrupted shot in the same location.
+
+No cuts.
+
+No transitions.
+
+No angle changes.
+
+No montage.
+
+No second scene.
+
+No automatic reframing.
+
+STARTING MOTION
+
+During the first 0.2 to 0.4 seconds, continue the exact simple movement already visible in Frame 0.
+
+Do not reset the characters into neutral poses.
+
+Do not restart the action.
+
+Preserve the starting hand positions, gaze direction, mouth state, prop position, camera framing, clothing, lighting and background.
+
+CHARACTER IDENTITY
+
+Character 1:
+[Short identity lock.]
+
+Character 2:
+[Short identity lock.]
+
+Add further characters only when required.
+
+Preserve each identity throughout the full video.
+
+TIMELINE
+
+[0.0–X.X seconds]
+
+[Continue the exact movement from Frame 0 and describe the short natural preparation before speech.]
+
+[X.X–X.X seconds]
+
+Character 1 says in Russian:
+
+"[Exact original line with original punctuation.]"
+
+Delivery:
+[Emotion, pace, gaze and one restrained gesture.]
+
+Listening reaction:
+[One subtle delayed reaction by the silent character.]
+
+[X.X–X.X seconds]
+
+Character 2 says in Russian:
+
+"[Exact original line with original punctuation.]"
+
+Delivery:
+[Emotion, pace, gaze and one restrained gesture.]
+
+Listening reaction:
+[One subtle delayed reaction by the silent character.]
+
+Continue this structure dynamically for every additional line.
+
+[X.X–X.X seconds]
+
+The punchline is spoken exactly as written:
+
+"[Exact original punchline.]"
+
+The speaker completes the entire final line before any laughter begins.
+
+[X.X–9.0 seconds]
+
+POST-PUNCHLINE DELAY
+
+[Describe a short natural moment of realization, eye contact, frozen seriousness or an unsuccessful attempt to suppress a smile.]
+
+No major laughter yet.
+
+The characters briefly try to remain serious.
+
+[9.0–9.2 seconds]
+
+LAUGHTER IGNITION
+
+[Specify which character breaks first.]
+
+The first character unexpectedly loses composure with a sharp nasal exhale, brief snort or broken first laugh.
+
+Their expression changes naturally rather than instantly.
+
+Their eyes begin to narrow.
+
+Their shoulders make one small irregular movement.
+
+[9.2–9.5 seconds]
+
+LAUGHTER EXPLOSION
+
+The first character breaks into an open, intense and genuinely contagious laugh.
+
+The laughter causes irregular breathing, one or two natural shoulder movements and a brief attempt to inhale.
+
+The smartphone microphone may show very slight natural overload from the sudden volume.
+
+Do not deform the face.
+
+Do not turn the laugh into screaming.
+
+[9.4–9.7 seconds]
+
+SECOND CHARACTER CATCHES THE LAUGHTER
+
+The second character initially tries to remain serious, then becomes infected by the first character’s laugh with a short natural delay.
+
+The second character laughs in a different rhythm and with different body movement.
+
+Do not synchronize their faces, shoulders, breathing or vocal rhythm.
+
+[9.7–10.0 seconds]
+
+PEAK CONTAGIOUS LAUGHTER
+
