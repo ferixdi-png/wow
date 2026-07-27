@@ -1,0 +1,181 @@
+Static objects remain static.
+
+Do not introduce new people or objects.
+
+Do not remove important existing objects.
+
+Do not morph furniture.
+
+Do not change the dimensions of the location.
+
+Do not flicker the lighting.
+
+Keep everything else the same.
+
+VISUAL REALISM
+
+Natural human skin texture.
+
+Stable eyes and teeth.
+
+Realistic hair movement.
+
+Realistic fabric folds.
+
+Natural subject motion blur only on moving body parts.
+
+Subtle smartphone sensor texture.
+
+Natural smartphone compression.
+
+Ordinary environmental lighting.
+
+No cinematic grading.
+
+No beauty filter.
+
+No plastic skin.
+
+No artificial shallow focus.
+
+No exaggerated dirt or defects.
+
+During the final laughter, preserve realistic anatomy and facial identity despite the increased movement.
+
+AUDIO
+
+Natural Russian conversational voices.
+
+Each character keeps one consistent voice.
+
+The voice matches the apparent age and personality of the character.
+
+Use realistic distance from the smartphone microphone.
+
+Environmental audio anchor:
+
+[Describe one quiet natural background sound.]
+
+Include subtle room tone.
+
+Include quiet natural breathing and clothing movement only when appropriate.
+
+Keep the dialogue clearly understandable.
+
+During the final second, create loud but realistic spontaneous human laughter.
+
+The two laughter voices must remain different.
+
+Use irregular breathing, short snorts, broken exhalations and natural attempts to inhale.
+
+Allow only very slight realistic smartphone microphone clipping at the loudest peak.
+
+No background music.
+
+No laugh track.
+
+No cinematic sound design.
+
+No random sound effects.
+
+No extra speech.
+
+No subtitles.
+
+ENDING
+
+The explosive laughter begins exactly after the punchline and short reaction delay.
+
+The final second is dominated by genuine contagious laughter.
+
+Cut abruptly at the strongest natural point.
+
+No fade-out.
+
+No outro.
+
+No recovery from the laugh.
+
+No final pose for the camera.
+
+CRITICAL AVOID LIST
+
+No scene cuts.
+No camera movement.
+No dialogue changes.
+No speaker swaps.
+No identity drift.
+No face morphing.
+No moving lips on silent characters.
+No hand teleportation.
+No extra fingers.
+No prop duplication.
+No background drift.
+No random people.
+No phone interface.
+No borders.
+No text overlays.
+No subtitles.
+No watermarks.
+No laughter before the punchline is complete.
+No synchronized laughter start.
+No identical laughter voices.
+No looping shoulder movement.
+No screaming.
+No facial deformation.
+
+Use Image1 as the starting frame.
+
+When additional images are supplied, use them only as identity references for video generation.
+```
+
+Все таймкоды до 9.0 секунды рассчитывай динамически.
+
+Интервал **9.0–10.0 секунды не изменяй**.
+
+Не оставляй квадратные скобки.
+
+---
+
+# БЛОК 3. АУДИО И ПУБЛИКАЦИЯ
+
+## 3.1 Оригинальный диалог
+
+Сохрани текст полностью:
+
+```text
+CHARACTER_01: [точная оригинальная реплика с пунктуацией]
+
+CHARACTER_02: [точная оригинальная реплика с пунктуацией]
+```
+
+Добавляй все реплики в исходном порядке.
+
+Не добавляй текстовые обозначения смеха внутрь исходных реплик.
+
+---
+
+## 3.2 Версия для внешнего липсинка
+
+Удаляй только знаки препинания.
+
+Не меняй слова и порядок:
+
+```text
+CHARACTER_01
+
+[точная реплика без пунктуации]
+
+CHARACTER_02
+
+[точная реплика без пунктуации]
+```
+
+Не добавляй:
+
+* ха ха;
+* ахах;
+* хех;
+* фырканье;
+* описание смеха.
+
